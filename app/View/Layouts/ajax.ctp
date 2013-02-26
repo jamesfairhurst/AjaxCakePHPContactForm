@@ -16,4 +16,5 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 ?>
+<?php echo $this->Session->flash(); ?>
 <?php echo $this->fetch('content'); ?>
